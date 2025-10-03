@@ -111,7 +111,7 @@ const EXERCISES: Exercise[] = [
     title: "Grade Converter",
     difficulty: "Medium",
     description:
-      'Write a program that asks the user their age, and prints the highest age game they can buy.\n\nWrite a program that takes a test percentage, and gives it the correct grade.\n\nGrades:\n - 90–100 A,\n - 80–89 B,\n - 70–79 C,\n - 60–69 D,\n - below 60 F.\n\nIf an impossible result is given, it should print "Invalid".',
+      'Write a program that takes a test percentage, and gives it the correct grade.\n\nGrades:\n - 90–100 A,\n - 80–89 B,\n - 70–79 C,\n - 60–69 D,\n - below 60 F.\n\nIf an impossible result is given, it should print "Invalid".',
     examples: [
       { input: 'Enter a test result: 78', output: 'C' },
       { input: 'Enter a test result: 153', output: 'Invalid' },
@@ -197,6 +197,41 @@ const EXERCISES: Exercise[] = [
       { input: 'Rock, paper or scissors: paper', output: 'Computer chose: paper\nDraw!' },
       { input: 'Rock, paper or scissors: rock', output: 'Computer chose: scissors\nYou win!' },
     ]
+  },
+  {
+    id: 15,
+    title: "Penalty Shootout (Left/Center/Right)",
+    difficulty: "Hard",
+    description:
+      "You shoot 'left', 'center', or 'right'. The keeper dives randomly.\n\nIf keeper dives the same direction, print 'Saved!'; otherwise 'Goal!'.\n\nIgnore case and spaces.",
+    examples: [
+      { input: 'Shoot (left/center/right): left', output: 'Keeper went right - Goal!' },
+      { input: 'Shoot (left/center/right): center', output: 'Keeper went center - Saved!' },
+    ],
+  },
+  {
+    id: 16,
+    title: "Rock, Paper, Scissors, Lizard, Spock",
+    difficulty: "Hard",
+    description:
+      "Extended Rock Paper Scissors with five choices.\n\nRules:\n- rock crushes scissors,\n- scissors cuts paper,\n- paper covers rock,\n- rock crushes lizard,\n- lizard poisons Spock,\n- Spock smashes scissors,\n- scissors decapitates lizard,\n- lizard eats paper,\n- paper disproves Spock,\n- Spock vaporizes rock.\n\nTrim spaces and ignore case.",
+    examples: [
+      { input: 'Your choice: spock', output: 'Computer chose: scissors - You win!' },
+      { input: 'Your choice: paper', output: 'Computer chose: lizard - You lose!' },
+      { input: 'Your choice: rock', output: 'Computer chose: rock - Draw!' },
+    ],
+  },
+  {
+    id: 24,
+    title: "Leap Year Checker",
+    difficulty: "Hard",
+    description:
+      "Ask the user to input a year. Print 'Leap year' if it is a leap year.\n\nOtherwise print 'Not a leap year'.\n\nHint: There is a known maths solution to this problem!",
+    examples: [
+      { input: "Year: 2000", output: "Leap year" },
+      { input: "Year: 1900", output: "Not a leap year" },
+      { input: "Year: 2024", output: "Leap year" }
+    ],
   },
 ];
 
