@@ -222,7 +222,7 @@ const EXERCISES: Exercise[] = [
     ],
   },
   {
-    id: 24,
+    id: 17,
     title: "Leap Year Checker",
     difficulty: "Hard",
     description:
@@ -233,6 +233,302 @@ const EXERCISES: Exercise[] = [
       { input: "Year: 2024", output: "Leap year" }
     ],
   },
+  {
+    id: 18,
+    title: "Count Odd Numbers",
+    difficulty: "Beginner",
+    description:
+      "Ask the user for five numbers, store them in a list, and count how many are odd!",
+    examples: [
+      { input: `Number 0: 43
+Number 1: 22
+Number 2: 3
+Number 3: 58
+Number 4: 99
+`, output: `There are 3 odd numbers` },
+    ],
+  },
+  {
+    id: 19,
+    title: "Reverse List",
+    difficulty: "Beginner",
+    description:
+      "Ask the user for 6 strings and print them reversed.",
+    examples: [
+      { input: `string 0: hello
+string 1: world
+string 2: foo
+string 3: bar
+string 4: cat
+string 5: dog`, output: `dog
+cat
+bar
+foo
+world
+hello` },
+    ],
+  },
+  {
+    id: 20,
+    title: "Build a Square",
+    difficulty: "Beginner",
+    description:
+      "Using loops, print a 5 long and 5 high square to the terminal.",
+    examples: [
+      { input: "No Input", output: `*****
+*****
+*****
+*****
+*****` },
+    ],
+  },
+  {
+    id: 21,
+    title: "Build a Square - User's Choice",
+    difficulty: "Beginner",
+    description:
+      "Ask the user how wide they want their square to be. Then, using loops, print their square to the terminal.",
+    examples: [
+      { input: "How wide?: 5", output: `*****
+*****
+*****
+*****
+*****
+` },
+      { input: "How wide?: 7", output: `*******
+*******
+*******
+*******
+*******
+*******
+*******
+` },
+      { input: "How wide?: 3", output: `***
+***
+***` }
+    ],
+  },
+  {
+    id: 22,
+    title: "Build a Rectangle",
+    difficulty: "Easy",
+    description:
+      "Using loops, print a 9 wide and 3 high rectangle to the terminal.",
+    examples: [
+      { input: "No Input", output: `*********
+*********
+*********
+` },
+    ],
+  },
+  {
+    id: 23,
+    title: "Build a Rectangle - User's choice",
+    difficulty: "Easy",
+    description:
+      "Ask the user how wide and high they want their rectangle. Then, using loops, print it!",
+    examples: [
+      { input: "How wide?: 9\nHow high?: 3", output: `*********
+*********
+*********
+` },
+  { input: "How wide?: 16\nHow high?: 2", output: `****************
+****************
+` },
+  { input: "How wide?: 2\nHow high?: 10", output: `**
+**
+**
+**
+**
+**
+**
+**
+**
+**
+` },
+    ],
+  },
+  {
+    id: 24,
+    title: "Build a Right-Angled Triangle",
+    difficulty: "Medium",
+    description:
+      "Using loops, print an 8 high right-angled triangle to the terminal.",
+    examples: [
+      { input: "No Input", output: `*
+**
+***
+****
+*****
+******
+*******
+********
+` },
+    ],
+  },
+  {
+    id: 25,
+    title: "Build a Right-Angled Triangle - User's choice",
+    difficulty: "Medium",
+    description:
+      "Ask the user how high they want their right-angled triangle. Then, using loops, print the triangle to the terminal.",
+    examples: [
+      { input: "How high?: 3", output: `*
+**
+***
+` },
+  { input: "How high?: 9", output: `*
+**
+***
+****
+*****
+******
+*******
+********
+*********
+` },
+  { input: "How high?: 30", output: `*
+**
+***
+****
+*****
+******
+*******
+********
+*********
+**********
+***********
+************
+*************
+**************
+***************
+****************
+*****************
+******************
+*******************
+********************
+*********************
+**********************
+***********************
+************************
+*************************
+**************************
+***************************
+` },
+    ],
+  },
+  {
+    id: 26,
+    title: "Empty Square!",
+    difficulty: "Hard",
+    description:
+      "Using loops, print a 5 long and 5 high empty square to the terminal.",
+    examples: [
+      { input: "No Input", output: `*****
+*   *
+*   *
+*   *
+*****` },
+    ],
+  },
+  {
+    id: 27,
+    title: "Empty Square - User's Choice",
+    difficulty: "Hard",
+    description:
+      "Ask the user how wide they want their empty square to be. Then, using loops, print their empty square to the terminal.",
+    examples: [
+      { input: "How wide?: 5", output: `*****
+*   *
+*   *
+*   *
+*****
+` },
+      { input: "How wide?: 7", output: `*******
+*     *
+*     *
+*     *
+*     *
+*     *
+*******
+` },
+      { input: "How wide?: 3", output: `***
+* *
+***` }
+    ],
+  },
+  {
+    id: 28,
+    title: "Build a Right-Angled Triangle - Right Side",
+    difficulty: "Hard",
+    description:
+      "Ask the user how high they want their right-angled triangle. Then, using loops, print the triangle to the terminal - aligned to the right side.",
+    examples: [
+      { input: "How high?: 3", output: `  *
+ **
+***
+` },
+  { input: "How high?: 9", output: `        *
+       **
+      ***
+     ****
+    *****
+   ******
+  *******
+ ********
+*********
+` },
+  { input: "How high?: 30", output: `                             *
+                            **
+                           ***
+                          ****
+                         *****
+                        ******
+                       *******
+                      ********
+                     *********
+                    **********
+                   ***********
+                  ************
+                 *************
+                **************
+               ***************
+              ****************
+             *****************
+            ******************
+           *******************
+          ********************
+         *********************
+        **********************
+       ***********************
+      ************************
+     *************************
+    **************************
+   ***************************
+  ****************************
+ *****************************
+******************************
+` },
+    ],
+  },
+  {
+    id: 29,
+    title: "Build a Saltire!",
+    difficulty: "Hard",
+    description:
+      "A saltire is the shape of the scottish flag.\n\nIt is a square, with a cross in the middle.\n\n\nAsk the user the size of the saltire, and print it!",
+    examples: [
+      { input: "Saltire size: 9", output: `*********
+**     **
+* *   * *
+*  * *  *
+*   *   *
+*  * *  *
+* *   * *
+**     **
+*********` },
+    ],
+  }
 ];
 
 // ---------------------------
