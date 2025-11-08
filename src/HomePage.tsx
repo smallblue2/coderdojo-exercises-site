@@ -47,8 +47,16 @@ const categories: Category[] = [
     title: 'Lists & Loops',
     description: 'Practice loops, lists, and pattern creation with iterations',
     icon: '🔁',
-    exerciseCount: 11,
+    exerciseCount: 18,
     difficulty: 'Beginner to Hard'
+  },
+  {
+    id: 'os',
+    title: 'OS (Operating System) Module',
+    description: 'Interact with the operating system, read and write to files and much more!',
+    icon: '📁',
+    exerciseCount: 8,
+    difficulty: 'Easy to Hard'
   }
 ];
 

@@ -39,10 +39,10 @@ const PageHeader = ({ title, subtitle }: PageHeaderProps) => (
         to="/"
         className="inline-flex items-center text-sm text-indigo-600 hover:text-indigo-700 font-medium"
       >
-        <svg 
-          className="mr-1 h-4 w-4" 
-          fill="none" 
-          viewBox="0 0 24 24" 
+        <svg
+          className="mr-1 h-4 w-4"
+          fill="none"
+          viewBox="0 0 24 24"
           stroke="currentColor"
         >
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -184,6 +184,17 @@ function ExerciseCard({ exercise, index }: ExerciseCardProps) {
       <p className="mt-2 text-gray-700 whitespace-pre-line">
         {exercise.description}
       </p>
+
+      {exercise.file && (
+        <a
+          href={exercise.file}
+          download
+          className="text-indigo-600 underline hover:text-indigo-800 mt-2 inline-block"
+        >
+          Download file
+        </a>
+      )}
+
 
       {exercise.examples && exercise.examples.length > 0 && (
         <ol className="mt-4 space-y-4">

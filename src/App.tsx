@@ -5,6 +5,7 @@ import ConditionsPage from './pages/ConditionsPage'
 import StringsPage from './pages/StringsPage'
 import GamesPage from './pages/GamesPage'
 import LoopsPage from './pages/LoopsPage'
+import OsPage from './pages/OsPage'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/strings" element={<StringsPage />} />
         <Route path="/games" element={<GamesPage />} />
         <Route path="/loops" element={<LoopsPage />} />
+        <Route path="/os" element={<OsPage />} />
       </Routes>
     </Router>
   )

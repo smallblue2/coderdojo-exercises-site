@@ -208,12 +208,14 @@ export const ALL_EXERCISES: Exercise[] = [
     description:
       "Ask the user for five numbers, store them in a list, and count how many are odd!",
     examples: [
-      { input: `Number 0: 43
+      {
+        input: `Number 0: 43
 Number 1: 22
 Number 2: 3
 Number 3: 58
 Number 4: 99
-`, output: `There are 3 odd numbers` },
+`, output: `There are 3 odd numbers`
+      },
     ],
   },
   {
@@ -223,7 +225,8 @@ Number 4: 99
     description:
       "Ask the user for 6 strings and print them reversed.",
     examples: [
-      { input: `string 0: hello
+      {
+        input: `string 0: hello
 string 1: world
 string 2: foo
 string 3: bar
@@ -243,7 +246,8 @@ hello` },
     description:
       "Using loops, print a 5 long and 5 high square to the terminal.",
     examples: [
-      { input: "No Input", output: `*****
+      {
+        input: "No Input", output: `*****
 *****
 *****
 *****
@@ -257,13 +261,15 @@ hello` },
     description:
       "Ask the user how wide they want their square to be. Then, using loops, print their square to the terminal.",
     examples: [
-      { input: "How wide?: 5", output: `*****
+      {
+        input: "How wide?: 5", output: `*****
 *****
 *****
 *****
 *****
 ` },
-      { input: "How wide?: 7", output: `*******
+      {
+        input: "How wide?: 7", output: `*******
 *******
 *******
 *******
@@ -271,7 +277,8 @@ hello` },
 *******
 *******
 ` },
-      { input: "How wide?: 3", output: `***
+      {
+        input: "How wide?: 3", output: `***
 ***
 ***` }
     ],
@@ -283,7 +290,8 @@ hello` },
     description:
       "Using loops, print a 9 wide and 3 high rectangle to the terminal.",
     examples: [
-      { input: "No Input", output: `*********
+      {
+        input: "No Input", output: `*********
 *********
 *********
 ` },
@@ -296,14 +304,17 @@ hello` },
     description:
       "Ask the user how wide and high they want their rectangle. Then, using loops, print it!",
     examples: [
-      { input: "How wide?: 9\nHow high?: 3", output: `*********
+      {
+        input: "How wide?: 9\nHow high?: 3", output: `*********
 *********
 *********
 ` },
-  { input: "How wide?: 16\nHow high?: 2", output: `****************
+      {
+        input: "How wide?: 16\nHow high?: 2", output: `****************
 ****************
 ` },
-  { input: "How wide?: 2\nHow high?: 10", output: `**
+      {
+        input: "How wide?: 2\nHow high?: 10", output: `**
 **
 **
 **
@@ -323,7 +334,8 @@ hello` },
     description:
       "Using loops, print an 8 high right-angled triangle to the terminal.",
     examples: [
-      { input: "No Input", output: `*
+      {
+        input: "No Input", output: `*
 **
 ***
 ****
@@ -341,11 +353,13 @@ hello` },
     description:
       "Ask the user how high they want their right-angled triangle. Then, using loops, print the triangle to the terminal.",
     examples: [
-      { input: "How high?: 3", output: `*
+      {
+        input: "How high?: 3", output: `*
 **
 ***
 ` },
-  { input: "How high?: 9", output: `*
+      {
+        input: "How high?: 9", output: `*
 **
 ***
 ****
@@ -355,7 +369,8 @@ hello` },
 ********
 *********
 ` },
-  { input: "How high?: 30", output: `*
+      {
+        input: "How high?: 30", output: `*
 **
 ***
 ****
@@ -392,7 +407,8 @@ hello` },
     description:
       "Using loops, print a 5 long and 5 high empty square to the terminal.",
     examples: [
-      { input: "No Input", output: `*****
+      {
+        input: "No Input", output: `*****
 *   *
 *   *
 *   *
@@ -406,13 +422,15 @@ hello` },
     description:
       "Ask the user how wide they want their empty square to be. Then, using loops, print their empty square to the terminal.",
     examples: [
-      { input: "How wide?: 5", output: `*****
+      {
+        input: "How wide?: 5", output: `*****
 *   *
 *   *
 *   *
 *****
 ` },
-      { input: "How wide?: 7", output: `*******
+      {
+        input: "How wide?: 7", output: `*******
 *     *
 *     *
 *     *
@@ -420,7 +438,8 @@ hello` },
 *     *
 *******
 ` },
-      { input: "How wide?: 3", output: `***
+      {
+        input: "How wide?: 3", output: `***
 * *
 ***` }
     ],
@@ -432,11 +451,13 @@ hello` },
     description:
       "Ask the user how high they want their right-angled triangle. Then, using loops, print the triangle to the terminal - aligned to the right side.",
     examples: [
-      { input: "How high?: 3", output: `  *
+      {
+        input: "How high?: 3", output: `  *
  **
 ***
 ` },
-  { input: "How high?: 9", output: `        *
+      {
+        input: "How high?: 9", output: `        *
        **
       ***
      ****
@@ -446,7 +467,8 @@ hello` },
  ********
 *********
 ` },
-  { input: "How high?: 30", output: `                             *
+      {
+        input: "How high?: 30", output: `                             *
                             **
                            ***
                           ****
@@ -486,7 +508,8 @@ hello` },
     description:
       "A saltire is the shape of the scottish flag.\n\nIt is a square, with a cross in the middle.\n\n\nAsk the user the size of the saltire, and print it!",
     examples: [
-      { input: "Saltire size: 9", output: `*********
+      {
+        input: "Saltire size: 9", output: `*********
 **     **
 * *   * *
 *  * *  *
@@ -496,7 +519,155 @@ hello` },
 **     **
 *********` },
     ],
-  }
+  },
+  {
+    id: 30,
+    title: "Print Each Letter",
+    difficulty: "Easy",
+    description:
+      "Ask a user for input and using a for loop, loop through the word and print each letter on a new line.",
+    examples: [
+      { input: "hello", output: "h\ne\nl\nl\no" },
+      { input: "world!", output: "w\no\nr\nl\nd\n!" },
+      { input: "niall is so smelly", output: "n\ni\na\nl\nl\n\ni\ns\n\ns\no\n\ns\nm\ne\nl\nl\ny" },
+    ],
+  },
+  {
+    id: 31,
+    title: "List of Numbers",
+    difficulty: "Easy",
+    description:
+      "Given a list of numbers, using a for loop print each number multiplied by 2.",
+    examples: [
+      { input: "[1, 2, 3]", output: "2\n4\n6" },
+      { input: "[5, 99, 26]", output: "10\n198\n52" },
+    ],
+  },
+  {
+    id: 32,
+    title: "Sum of Numbers",
+    difficulty: "Easy",
+    description:
+      "Use a for loop to add up all numbers in a list and print the total.",
+    examples: [
+      { input: "[3, 5, 2]", output: "10" },
+      { input: "[36, 98, 184]", output: "318" },
+      { input: "[0, 0, 0]", output: "0" },
+    ],
+  },
+  {
+    id: 33,
+    title: "Count Vowels",
+    difficulty: "Medium",
+    description:
+      "Ask the user for a word and count how many vowels (a, e, i, o, u) it has using a for loop.",
+    examples: [
+      { input: "banana", output: "3" },
+    ],
+  },
+  {
+    id: 34,
+    title: "FizzBuzz",
+    difficulty: "Medium",
+    description:
+      "For numbers from 1 to 20, print 'Fizz' for multiples of 3, 'Buzz' for multiples of 5, and 'FizzBuzz' for numbers that are both.\n\nIf the number doesn't fit any of these, just print the number.",
+    examples: [
+      { input: "no input", output: "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz\n..." },
+    ],
+  },
+  {
+    id: 35,
+    title: "Find the Largest Number",
+    difficulty: "Hard",
+    description:
+      "Use a for loop to find the largest number in a list.",
+    examples: [
+      { input: "[3, 8, 2, 5]", output: "8" },
+      { input: "[2, 1, 999999, 52]", output: "999999" },
+      { input: "[2364457645342, 796767, 234234, 98329]", output: "2364457645342" },
+    ],
+  },
+  {
+    id: 36,
+    title: "Read a File",
+    difficulty: "Easy",
+    description:
+      "Download the file 'hello.txt' below and print its entire contents.",
+    file: "/files/hello.txt",
+    examples: [
+      { input: "(hello.txt)", output: "Hello world!" },
+    ],
+  },
+  {
+    id: 37,
+    title: "Read 3 of Lines from a File",
+    difficulty: "Easy",
+    description: "Download 'story.txt' and print the first 3 lines only.",
+    file: "files/story.txt",
+    examples: [
+      { input: "(story.txt)", output: "There once was a speedy Hare who bragged about how fast he could run.\nTired of hearing him boast, the Tortoise challenged him to a race.\nAll the animals in the forest gathered to watch." },
+    ],
+  },
+  {
+    id: 38,
+    title: "Count Lines in File",
+    difficulty: "Easy",
+    description:
+      "Using the 'story.txt' file from before, count the number of lines in the entire file.",
+    examples: [
+      { input: "(story.txt)", output: "10" },
+    ],
+  },
+  {
+    id: 39,
+    title: "Make a New Folder",
+    difficulty: "Easy",
+    description:
+      "Create a new folder using `os.mkdir`.",
+    examples: [
+      { input: "no input", output: "Folder 'my_folder' created!" },
+    ],
+  },
+  {
+    id: 40,
+    title: "List Files in a Folder",
+    difficulty: "Medium",
+    description:
+      "List all the files in the folder you are storing the downloaded files in. Print each file name on a new line.",
+    examples: [
+      { input: "(no input)", output: "hello.txt\nstory.txt" },
+    ],
+  },
+  {
+    id: 41,
+    title: "Count Files in a Folder",
+    difficulty: "Medium",
+    description:
+      "Count all the files in the folder you are storing the downloaded files in.",
+    examples: [
+      { input: "(no input)", output: "Files in directory: 2" },
+    ],
+  },
+  {
+    id: 42,
+    title: "Write to a File",
+    difficulty: "Hard",
+    description:
+      "Create a new file called 'facts.txt' and put a fun fact about yourself inside it.",
+    examples: [
+      { input: "no input", output: "(created facts.txt containing your fun fact)" },
+    ],
+  },
+  {
+    id: 43,
+    title: "Append information to a File",
+    difficulty: "Hard",
+    description:
+      "Add another fact about you to 'facts.txt', on another line after the one you added before.",
+    examples: [
+      { input: "no input", output: "(facts.txt containing multiple fun facts)" },
+    ],
+  },
 ];
 
 // Category mappings
@@ -505,7 +676,8 @@ export const CATEGORIES = {
   conditions: [4, 5, 6, 7, 8, 10, 17],
   strings: [9, 11, 12, 13],
   games: [14, 15, 16],
-  loops: [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+  loops: [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35],
+  os: [36, 37, 38, 39, 40, 41, 42, 43]
 };
 
 export function getExercisesByCategory(category: keyof typeof CATEGORIES): Exercise[] {

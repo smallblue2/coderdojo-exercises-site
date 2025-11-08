@@ -11,6 +11,7 @@ export interface Exercise {
   id: number;
   title: string;
   difficulty: Difficulty;
+  file?: string;
   description: string;
   examples: Example[];
 }
